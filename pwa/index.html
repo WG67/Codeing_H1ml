@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"> 
-</head>
-
-
-<body>
-
+    <meta charset="UTF-8">
+    <title>My Progressive Web App</title>
+    <link rel="manifest" href="/manifest.json">
+    <!-- add any additional stylesheets or scripts here -->
+  </head>
+  <body>
+    <h1>Welcome to My Progressive Web App!</h1>
+    <p>This is a basic example of a progressive web app.</p>
+    <button>Click me!</button>
     
-<h1>This is Heading 1</h1>
-
-<p>
-    This is para 1
-</p>
-
-</body>
+    <script>
+      const button = document.querySelector('button');
+      button.addEventListener('click', () => {
+        alert('You clicked the button!');
+      });
+    
+    <!-- add any additional scripts here -->
+    
+      // add your app's JavaScript code here
+    </script>
+  </body>
 </html>
